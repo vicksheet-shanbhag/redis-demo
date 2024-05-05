@@ -1,0 +1,29 @@
+{
+  "name": "redis-demo",
+  "version": "1.0.0",
+  "description": "demo on redis process",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicksheet-shanbhag/redis-demo.git"
+  },
+  "author": "Vicksheet Shanbhag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicksheet-shanbhag/redis-demo/issues"
+  },
+  "homepage": "https://github.com/vicksheet-shanbhag/redis-demo#readme",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "redis": "^4.6.13"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
